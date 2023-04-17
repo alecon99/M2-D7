@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Research</title>
+</head>
+<body>
+    <h1>Research</h1>
+    <div id="containers">
+        <!-- contenitore degli input text -->
+        <div id="input_text" >
+            <div class="content">
+                <label for="location">Location</label><br>
+                <input type="text" name="location" id="location" value=""><br>
+            </div>
+            <div class="content">
+                <label for="position">Position</label><br>
+                <input type="text" name="position" id="position" value=""><br>
+            </div>
+        </div>
+        <!-- bottone che avvia la funzione di ricerca lavori corrispondenti-->
+        <div id="button">
+            <input type="button" value="CERCA" onclick="imputValue()" id="button">
+        </div>
+        <script src="scaricabile.js"></script>
+    </div>
+    <div id="total" ></div>
+    <ul id="search_result"></ul>
+</body>
+</html>

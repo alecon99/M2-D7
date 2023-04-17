@@ -1,0 +1,57 @@
+body{
+    padding: 0 50px 0 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* contenitori input text */
+#containers{
+    border: 1px solid #000000;
+    background-color: rgba(236, 236, 236, 0.595);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#input_text{
+    display: flex;
+    justify-content: center;
+}
+
+/* input text */
+.content{
+    margin: 20px;
+}
+
+/* bottone CERCA */
+#button input{
+    border: 1px solid #000000;
+    background-color: #9a9a9a;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+#button input:hover{
+    cursor: pointer;
+    background-color: #666666;
+
+}
+
+/* contatore inserzioni trovate */
+#total{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+/* lista inserzioni trovate */
+#search_result {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    min-height: 50px;
+    background-color: white;
+    border: 1px solid #000000;
+}
